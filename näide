@@ -1,0 +1,97 @@
+// Compose the email message
+$to = "mare@pekonsult.ee";
+$subject = 'CMPS testi tulemus';
+$body = "<h2 style='text-align: center'>CMPS testi tulemus</h2>
+	<table style='width: 800px; border=0'><td width='475'><p>Pseudonüüm <strong>$num167</strong></p></td>
+	<td width='175'><div style='height: 25px; width: 25px; display: inline-block; background-color: #FFCF63;'></div> Eesti keskmine</td>
+	<td width='150'><div style='height: 25px; width: 25px; display: inline-block; background-color: #e22424;'></div> Teie tulemus</td></table>
+<div style='width: 800px; height: 150px; display: flex; justify-content: space-between; align-items: flex-end'>
+  <div style='height: $r01 width: 25px; background-color: #e22424'><div style='text-align:center;'>$v01</div></div>
+  <div style='height: 59%; width: 25px; background-color: #FFCF63;'>5,9</div>
+  <div style='height: $r02 width: 25px; background-color: #e22424'><div style='text-align:center;'>$v02</div></div>
+  <div style='height: 52%; width: 25px; background-color: #FFCF63;'>5,2</div>
+  <div style='height: $r03 width: 25px; background-color: #e22424'><div style='text-align:center;'>$v03</div></div>
+  <div style='height: 57%; width: 25px; background-color: #FFCF63;'>5,7</div>
+  <div style='height: $r04 width: 25px; background-color: #e22424'><div style='text-align:center;'>$v04</div></div>
+  <div style='height: 51%; width: 25px; background-color: #FFCF63;'>5,1</div>
+  <div style='height: $r05 width: 25px; background-color: #e22424'><div style='text-align:center;'>$v05</div></div>
+  <div style='height: 55%; width: 25px; background-color: #FFCF63;'>5,5</div>
+  <div style='height: $r06 width: 25px; background-color: #e22424'><div style='text-align:center;'>$v06</div></div>
+  <div style='height: 52%; width: 25px; background-color: #FFCF63;'>5,2</div>
+  <div style='height: $r07 width: 25px; background-color: #e22424'><div style='text-align:center;'>$v07</div></div>
+  <div style='height: 55%; width: 25px; background-color: #FFCF63;'>5,5</div>
+  <div style='height: $r08 width: 25px; background-color: #e22424'><div style='text-align:center;'>$v08</div></div>
+  <div style='height: 43%; width: 25px; background-color: #FFCF63;'>4,3</div>
+  <div style='height: $r09 width: 25px; background-color: #e22424'><div style='text-align:center;'>$v09</div></div>
+  <div style='height: 49%; width: 25px; background-color: #FFCF63;'>4,9</div>
+  <div style='height: $r10 width: 25px; background-color: #e22424'><div style='text-align:center;'>$v10</div></div>
+  <div style='height: 51%; width: 25px; background-color: #FFCF63;'>5,1</div>
+  <div style='height: $r11 width: 25px; background-color: #e22424'><div style='text-align:center;'>$v11</div></div>
+  <div style='height: 56%; width: 25px; background-color: #FFCF63;'>5,6</div>
+</div>
+
+<table style='width: 800px; border=0'>
+<td style='width: 72px; text-align: center; vertical-align:top'>S<br>A<br>A<br>V<br>U<br>T<br>A<br>M<br>I<br>N<br>E</td>
+<td style='width: 72px; text-align: center; vertical-align:top'>Ü<br>H<br>I<br>N<br>E<br>M<br>I<br>N<br>E</td>
+<td style='width: 72px; text-align: center; vertical-align:top'>A<br>G<br>R<br>E<br>S<br>I<br>I<br>V<br>S<br>U<br>S</td>
+<td style='width: 72px; text-align: center; vertical-align:top'>E<br>N<br>E<br>S<br>E<br>K<br>A<br>I<br>T<br>S<br>M<br>I<br>N<br>E</td>
+<td style='width: 72px; text-align: center; vertical-align:top'>S<br>Ü<br>Ü<br>T<br>U<br>N<br>N<br>E</td>
+<td style='width: 72px; text-align: center; vertical-align:top'>D<br>O<br>M<br>I<br>N<br>E<br>E<br>R<br>I<br>M<br>I<br>N<br>E</td>
+<td style='width: 72px; text-align: center; vertical-align:top'>E<br>N<br>E<br>S<br>E<br>N<br>Ä<br>I<br>T<br>A<br>M<br>I<br>N<br>E</td>
+<td style='width: 72px; text-align: center; vertical-align:top'>S<br>Õ<br>L<br>T<br>U<br>M<br>A<br>T<br>U<br>S</td>
+<td style='width: 72px; text-align: center; vertical-align:top'>A<br>B<br>I<br>S<br>T<br>A<br>M<br>I<br>N<br>E</td>
+<td style='width: 72px; text-align: center; vertical-align:top'>K<br>O<br>R<br>R<br>A<br>A<br>R<br>M<br>A<br>S<br>T<br>U<br>S</td>
+<td style='width: 72px; text-align: center; vertical-align:top'>T<br>O<br>E<br>T<br>U<br>M<br>I<br>N<br>E</td>
+</table>
+<br>
+<table style='width: 800px; height: 500px;  border=0'>
+<td>
+         <table style='width: 550px; height: 500px; border: 1px solid #000; border-radius: 10px;'>
+         <tr><td></td><td style='text-align: center'>Teie tulemus</td><td></td></tr>
+         <tr><td>SAAVUTAMINE</td><td style='text-align: center'>$v01</td><td>Soov saada hakkama paremini kui teised, panna oma võimed proovile, silma paista, edu saavutada.</td></tr>
+         <tr style='background-color: #FFCF63;'><td>ÜHINEMINE</td><td style='text-align: center'>$v02</td><td>Seltsi, sõpruse tarve. Soov omada sõpru enese ümber.</td></tr>
+         <tr><td>AGRESIIVSUS</td><td style='text-align: center'>$v03</td><td>Ärrituvus, viha, teiste narrimine, ründamine.</td></tr>
+         <tr style='background-color: #FFCF63;'><td>ENESEKAITSMINE</td><td style='text-align: center'>$v04</td><td>Soov vältida ebaõnnestumisi, tundlik kriitika suhtes.</td></tr>
+         <tr><td>SÜÜTUNNE</td><td style='text-align: center'>$v05</td><td>Kehtivate normide omaksvõtmine, südametunnistuse piinad väiksemagi üleastumise pärast, kohusetundlik.</td></tr>
+         <tr style='background-color: #FFCF63;'><td>DOMINEERIMINE</td><td style='text-align: center'>$v06</td><td>Tahab mõjutada, juhtida teisi, kaitseb oma seisukohti</td></tr>
+         <tr><td>ENESENÄITAMINE</td><td style='text-align: center'>$v07</td><td>Soov esineda, olla tähelepanu keskmes, silma paista, üllatada teisi.</td></tr>
+         <tr style='background-color: #FFCF63;'><td>SÕLTUMATUS</td><td style='text-align: center'>$v08</td><td>Iseseisvuse tarve, sageli vastuolus harjumuspärasega. Ei hooli teiste arvamusest, väldib vastutust.</td></tr>
+         <tr><td>ABISTAMINE</td><td style='text-align: center'>$v09</td><td>Soov aidata, kaasa tunda, hoolitseda nende eest, kes seda vajavad.</td></tr>
+         <tr style='background-color: #FFCF63;'><td style='border: none;'>KORRAARMASTUS</td><td style='text-align: center;'>$v10</td><td>Püüdlus korra, puhtuse, plaanipärasuse poole. Täpne, põhjalik, pedantne.</td></tr>
+         <tr><td>TOETUMINE</td><td style='text-align: center'>$v11</td><td>Soov saada teistelt tuge, kaastunnet, abi, mõistmist.</td></tr>
+         </table>
+</td><td><table style='border=0'><tr><td style='border: 1px solid #000; border-radius: 10px;'><h3>Liidri profiil: </h3><br>Saavutusvajadus - kõrge<br>Domineerimine - kõrge<br>Enesenäitamine - üle keskmise<br>Sõltumatus - üle keskmise<br>Agressiivsus - alla keskmise<br>Enesekaitse - alla keskmise<br>Toetumisvajadus - alla keskmise<br><br></td></tr>
+<tr><td><br></td></tr>
+<tr><td style='border: 1px solid #000; border-radius: 10px;'><h3>Meeskondlik profiil: </h3><br>Ühtsuse vajadus - kõrge<br>Abistamisevajadus - kõrge<br>Toetumisvajadus - keskmine<br>Agressiivsus - alla keskmise<br>Enesekaitse - alla keskmise<br>Enesenäitamine - alla keskmise<br>Sõltumatus - alla keskmise<br><br></td></tr></table></td></table> ";
+         
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+$headers .= "From: testid@pekonsult.ee" . "\r\n";
+
+// Compose the email message 2
+$to2 = "testid@pekonsult.ee";
+$subject2 = 'CMPS testi andmed';
+$body2 = "<h2 style='text-align: center'>CMPS mare $v01 $v02 $v03 $v0a4 $v05 $v06 $v07 $v08 $v09 $v10 $v11</h2>";
+
+$headers2 = "MIME-Version: 1.0" . "\r\n";
+$headers2 .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+$headers2 .= "From: testid@pekonsult.ee" . "\r\n";
+
+// Send the email
+if (mail($to, $subject, $body, $headers)) {
+  printf("<html><head><title>CMPS test</title><body background=logod/taust.jpg></head><body>
+<font face=´Arial´ size=4><b><BR>
+Täname testi täitmise eest! </b></font>
+</body></html>");
+  } 
+  else {
+  echo "Töötlemine ebaõnnestus";
+}
+
+// Send the email 2
+if (mail($to2, $subject2, $body2, $headers2)) {
+  } 
+    else {
+  echo "Töötlemine ebaõnnestus";
+}
+?>
